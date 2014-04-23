@@ -34,22 +34,3 @@ function template_preprocess_galli(&$variables) {
 
 }
 
-
-function galli_menu_link_defaults() {
-
-  $links['galli/add'] = array(
-    'link_title' => 'Add Galli Content',
-    'route_name' => 'galli.galli_add',
-    'weight' => 10,
-  );
-
-  $links['galli.admin.structure.galli_settings'] = array(
-    'link_title' => 'Galli Settings',
-    'route_name' => 'galli.settings',
-    'parent' => 'system.admin.structure'
-  );
-
-  return $links;
-}
-
-

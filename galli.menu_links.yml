@@ -1,0 +1,5 @@
+galli.settings:
+  title: 'Galli Settings'
+  description: 'Galli manage fields, form display'
+  parent: system.admin_structure
+  route_name: galli.settings
